@@ -1,24 +1,25 @@
-### 100 Days of Python - Day 001 Summary:
+100 Days of Python - Day 001 Summary:
 
 On the first day of my 100-day Python challenge, I focused on foundational concepts in Python:
 
-1. **Printing**:
-   - Learned how to use the `print()` function to display messages.
-   - Practiced basic string output, including multiple lines using the newline character (`\n`).
+1. Printing:
+   - Learned how to use the print() function to display messages.
+   - Practiced basic string output, including multiple lines using the newline character (\n).
 
-2. **String Manipulation**:
-   - Explored how to concatenate strings using the `+` operator.
+2. String Manipulation:
+   - Explored how to concatenate strings using the + operator.
    - Formatted outputs by adding spaces between concatenated strings.
 
-3. **User Input**:
-   - Used the `input()` function to collect data from the user and integrate it into your output.
+3. User Input:
+   - Used the input() function to collect data from the user and integrate it into your output.
 
-4. **Variables**:
-   - Captured user input in variables, calculated the length of a string using `len()`, and displayed the result.
+4. Variables:
+   - Captured user input in variables, calculated the length of a string using len(), and displayed the result.
    - Gained an understanding of how to store and reuse data in Python.
 
-5. **Variable Naming**:
+5. Variable Naming:
    - Learned the rules of proper variable naming in Python, ensuring descriptive, readable, and valid names.
 
-6. **Project: Band Name Generator**:
+6. Project: Band Name Generator:
    - Created a simple and fun project where you collected the user's city and pet name to generate a custom band name.
+
