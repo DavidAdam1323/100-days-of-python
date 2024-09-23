@@ -15,4 +15,7 @@ This challenge aims to strengthen my Python skills and prepare me for a career i
 
 Feel free to check in on my progress, offer suggestions, or embark on a similar journey!
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 1d2fe0df1172af4e35bdd5a4f0c3db465d133317
