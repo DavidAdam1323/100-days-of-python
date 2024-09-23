@@ -8,7 +8,6 @@ The project is organized into folders for each day, from **Day-001** to **Day-10
 
 - **Code**: Python scripts and projects I create daily.
 - **Notes**: Insights and key concepts I’ve learned.
-- **Resources**: Helpful links to tutorials, documentation, and other materials.
 
 ## Objective
 
@@ -16,6 +15,3 @@ This challenge aims to strengthen my Python skills and prepare me for a career i
 
 Feel free to check in on my progress, offer suggestions, or embark on a similar journey!
 
----
-
-You can copy and paste this directly into your README file. Let me know if you need any changes!
