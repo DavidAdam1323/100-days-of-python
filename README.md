@@ -16,6 +16,4 @@ This challenge aims to strengthen my Python skills and prepare me for a career i
 
 Feel free to check in on my progress, offer suggestions, or embark on a similar journey!
 
----
 
-You can copy and paste this directly into your README file. Let me know if you need any changes!
