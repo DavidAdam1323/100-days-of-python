@@ -1,4 +1,4 @@
-# 100 Days of Python Challenge
+# 100 Days of Python
 
 Welcome to my 100 Days of Python repository! This project documents my journey of learning Python over the next 100 days, where I'll be focusing on various aspects of the language and its applications, particularly in full-stack development.
 
