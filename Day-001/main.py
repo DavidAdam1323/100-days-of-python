@@ -24,3 +24,15 @@ print(len(input("what is your name? ")))
 user_name = input("What is your name? ")
 length = len(user_name)
 print(f"Your name is {length} characters long!")
+
+# Ex05: Variable Naming
+#   Learn the rules of variable naming in Python.
+#     1. Make sure your variable names are descriptive
+#     2. Don't have spaces between words
+#     3. Don't start with numbers
+#     4. Don't use special words like print or input
+#     5. Choose simple words that are less likely to become typos
+
+first_name = input("Enter your first name: ")
+last_name = input("Enter your last name: ")
+print(f"Your full name is: {first_name} {last_name}")
