@@ -1,4 +1,5 @@
-# Day 001
+# 100 Days of Python - Day 001
+
 # Ex01: Printing
 # Print out the words "Hello, World!"
 print("Hello, World!")
@@ -9,3 +10,8 @@ print("Hello, World!\nHello, World!\nHello, World!")
 
 # Add a space between the strings
 print("Hello," + " " + "World!")
+
+# Ex03: Inputs
+# Use the Python 'input()' function to collect user input and use it within the code
+# e.g. Hello, 'user_input'! 
+print("Hello, " + input("what's your name? ") + "!")
