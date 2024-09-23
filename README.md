@@ -8,7 +8,6 @@ The project is organized into folders for each day, from **Day-001** to **Day-10
 
 - **Code**: Python scripts and projects I create daily.
 - **Notes**: Insights and key concepts I’ve learned.
-- **Resources**: Helpful links to tutorials, documentation, and other materials.
 
 ## Objective
 
