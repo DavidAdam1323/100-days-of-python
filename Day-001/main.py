@@ -32,7 +32,16 @@ print(f"Your name is {length} characters long!")
 #     3. Don't start with numbers
 #     4. Don't use special words like print or input
 #     5. Choose simple words that are less likely to become typos
-
 first_name = input("Enter your first name: ")
 last_name = input("Enter your last name: ")
 print(f"Your full name is: {first_name} {last_name}")
+
+# Ex06: Band Name Generator - Project
+#   Create a greeting for your program.
+#   Ask the user for the city that they grew up in and store it in a variable.
+#   Ask the user for the name of a pet and store it in a variable.
+#   Combine the name of their city and pet and show them their band name.
+print("Welcome to the Band Generator Name!")
+city_name = input("Enter a city name: ")
+pet_name = input("Enter your pet name: ")
+print(f"Your Band name is: The {pet_name}'s {city_name}")
