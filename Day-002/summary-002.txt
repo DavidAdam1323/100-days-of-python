@@ -22,5 +22,5 @@ On the second day of my 100-day Python challenge, I deepened my understanding of
    - Assignment Operators: Simplified arithmetic operations on variables using operators like `+=`, `-=`, etc.
    - f-Strings: Utilized f-strings for efficient string formatting, inserting variables and expressions directly into strings.
 
-This day reinforced my knowledge of Python’s basic data types, handling errors, performing mathematical operations, and formatting outputs—key skills for more advanced programming.
-
+5. Project: Tip Calculator:
+   - Built a simple tip calculator that splits a bill among a group of people and calculates the tip based on a specified percentage.
