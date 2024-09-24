@@ -46,3 +46,30 @@ print(3 * 3 + 3 / 3 - 3)
 
 # Change the code so it outputs 3?
 print(3 * (3 + 3) / 3 - 3)
+
+
+# Ex03: Number Manipulation
+# Calculate the bmi using weight and height.
+# bmi = 84 / 1.65 ** 2
+height = 1.65
+weight = 84
+bmi = weight/height**2
+print(round(bmi, 3))
+
+# Rounding a decimal number to the nearest whole number using python round() function.
+print(round(3.738492)) # Becomes 4
+print(round(3.14159)) # Becomes 3
+print(round(3.14159, 2)) # Becomes 3.14
+
+# Assignment Operators will add the number on the right to the original value of the variable on the left and assign the new value to the variable.
+# += , -= , *= , /=
+num = 2
+num += 3
+print(num)
+
+# f-Strings
+# In Python, use f-strings to insert a variable or an expression into a string.
+print(f"The sum of 2 + 3 is equals {num}.")
+
+age = input("Enter your age: ")
+print(f"You are {age} years old.")
