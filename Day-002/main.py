@@ -37,3 +37,12 @@ print(str(len(input("Enter your name: "))))
 #       float()
 #       int()
 #       str()
+
+
+# Ex02: Mathematical operators
+# PEMDAS - Parentheses, Exponents, Multiplication/Division, Addition/Subtraction (+, -, *, /, // and **).
+# What is the output of this code? 3 * 3 + 3 / 3 - 3
+print(3 * 3 + 3 / 3 - 3)
+
+# Change the code so it outputs 3?
+print(3 * (3 + 3) / 3 - 3)
