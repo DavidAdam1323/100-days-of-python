@@ -39,7 +39,7 @@ print(str(len(input("Enter your name: "))))
 #       str()
 
 
-# Ex02: Mathematical operators
+# Ex03: Mathematical operators
 # PEMDAS - Parentheses, Exponents, Multiplication/Division, Addition/Subtraction (+, -, *, /, // and **).
 # What is the output of this code? 3 * 3 + 3 / 3 - 3
 print(3 * 3 + 3 / 3 - 3)
@@ -48,7 +48,7 @@ print(3 * 3 + 3 / 3 - 3)
 print(3 * (3 + 3) / 3 - 3)
 
 
-# Ex03: Number Manipulation
+# Ex04: Number Manipulation
 # Calculate the bmi using weight and height.
 # bmi = 84 / 1.65 ** 2
 height = 1.65
@@ -73,3 +73,14 @@ print(f"The sum of 2 + 3 is equals {num}.")
 
 age = input("Enter your age: ")
 print(f"You are {age} years old.")
+
+
+# Ex05: Tip Calculator - Project
+# Build a tip calculator logic. The bill = $150.00, split between 5 people, with 12% tip.
+# Math logic: (150.00 / 5) * 1.12 = 33.6
+bill = float(input("Enter Bill Amount:\n"))
+tip = float(input("Enter the tip percentage:\n")) / 100 * bill
+people = float(input("Enter the number of people:\n"))
+total = bill + tip 
+
+print(f"The total amount for person is £{round(total / people, 2)}!")
