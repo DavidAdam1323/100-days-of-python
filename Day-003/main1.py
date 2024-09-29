@@ -33,10 +33,24 @@ def javascript_quiz():
 
   To enter your answer, please type a, b, c, or d. 
   """
-  
   answer1 = get_valid_input(question1, ["a", "b", "c", "d"])
   if answer1.lower() != "d":
         game_over("I'm sorry, wrong answer - better luck next time.")
+
+  # level 2:
+  question2 = """
+  Which of the following is a valid way to define a function in JavaScript?
+    a) function myFunction() { ... }
+    b) const myFunction = function() { ... }
+    c) const myFunction = () => { ... }
+    d) All of the above
+
+  To enter your answer, please type a, b, c, or d.
+  """
+  answer2 = get_valid_input(question2, ["a", "b", "c", "d"])
+  if answer2.lower() != "d":
+        game_over("I'm sorry, wrong answer - better luck next time.")
+
   else:
      print("Congratulations! You passed the quiz and have a solid grasp of JavaScript basics!")
     
