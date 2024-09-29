@@ -51,3 +51,81 @@ if num % 2 == 0:
   print(f"The number {num} is an Even number.")
 else:
   print(f"The number {num} is an Odd number.")
+
+# Ex03: Nesting and "elif"
+# Put "if/else" statements inside other if/else statements. 
+# This is known as nesting. 
+
+# E.g.; In this case only when a student has over 90 on maths 
+# and english, do they get "You are good at everything".
+
+# if maths_score >= 90:
+#     if english_score >= 90:
+#         print("You're good at everything")
+#     else:
+#         print("You're good at maths")
+# if english_score >= 90:
+#     print("You're good at english)
+
+
+# Note: You can also have if statements that don't have a paired else statement.
+
+
+# Ex04: Multiple "ifs"
+# write as many if statements as you need to check for different conditions that are unrelated to each other. Compare the code blocks below:
+
+# If/elif/else
+# if <condition 1 is true>
+#     <do A>
+# elif <condition 2 is true>
+#     <do B>
+# else
+#     <do C>
+
+# Nested if statements
+# if <condition 1 is true>
+#     <do A>
+#     if <condition 2 is true>
+#         <do B>
+#         if <condition 3 is true>
+#             <do C>
+
+# Multiple if statements
+# if <condition 1 is true>
+#     <do A>
+# if <condition 2 is true>
+#     <do B>
+# if <condition 3 is true>
+#     <do C>
+
+# In the if/elif/else block, only one of A, B, or C can happen, 
+# because if/elif/else are mutually exclusive. 
+# The first condition has to fail to go into the elif 
+# and the elif (or multiple elif) have to fail to go into the else. 
+# Condition 2 is only checked if condition 1 is false.
+
+print("Welcome to the rollercoaster!")
+height = int(input("What is your height in cm? "))
+bill = 0
+if height >= 120:
+  print("Yes! You can ride the rollercoaster.")
+  age = int(input("What's your age?\n"))
+  if age < 12:
+    bill += 5
+    print(f"Your ticket is £{bill}.")
+  elif age < 18:
+    bill += 7
+    print(f"Your ticket is £{bill}.")
+  else:
+    bill += 12
+    print(f"Your ticket is £{bill}.")
+
+  photo = input("Would you like to add a photo?\nType yes or no:\n").lower()
+  if photo == "yes":
+    total_bill = bill + 3
+    print(f"Thank you!\nYour ticket with a photo is £{total_bill}.")
+  else:
+    print("Thanks for purchasing your ticket!")
+
+else:
+  print("Sorry, you have to grow taller before you can ride.")
