@@ -172,3 +172,43 @@ if extra_cheese == "yes":
   bill += 1
 
 print(f"Your final bill is £{bill}.") 
+
+
+# Ex06: Logical Operators
+# Combine different conditions using logical operators.
+
+# A "and" B - Both conditions need to be true.
+# C "or" D - Only one condition needs to be true.
+# "not" E - The condition must be false.
+
+# Update the code so that people age 45 to 55 (inclusive of both ages) ride for free. 
+# Use logical operators to check that the age is greater than 45, and it's also less than 55.
+
+print("Welcome to the rollercoaster!")
+height = int(input("What is your height in cm? "))
+bill = 0
+if height >= 120:
+  print("Yes! You can ride the rollercoaster.")
+  age = int(input("What's your age?\n"))
+  if age < 12:
+    bill += 5
+    print(f"Your ticket is £{bill}.")
+  elif age < 18:
+    bill += 7
+    print(f"Your ticket is £{bill}.")
+  # Upade code
+  elif age >= 45 and age <= 55:
+    print("Congratulations! You've got a FREE ticket.")
+  else:
+    bill += 12
+    print(f"Your Adult ticket is £{bill}.")
+
+  photo = input("Would you like to add a photo?\nType yes or no:\n").lower()
+  if photo == "yes":
+    total_bill = bill + 3
+    print(f"Thank you!\nYour ticket with a photo is £{total_bill}.")
+  else:
+    print("Thanks for purchasing your ticket!")
+
+else:
+  print("Sorry, you have to grow taller before you can ride.")
