@@ -1,0 +1,27 @@
+100 Days of Python - Day 003 Summary:
+
+On the third day of my 100-day Python challenge, I explored key concepts related to conditional statements, logical operators, code blocks, and scope in Python:
+
+1. Conditional Statements:
+   - Learned how to use `if`, `else`, and `elif` statements to control program flow based on conditions. 
+   - Understood the importance of indentation in Python for indicating code blocks.
+
+2. Comparison Operators:
+   - Explored different comparison operators like `>`, `<`, `>=`, `<=`, `==`, and `!=` to evaluate conditions.
+
+3. Modulo Operator:
+   - Practiced using the modulo operator (`%`) to find the remainder of a division. 
+   - Used this to create a simple program to check if a number is odd or even.
+
+4. Nesting and Multiple `if` Statements:
+   - Nested `if` statements within other `if/else` blocks to handle more complex logic.
+   - Differentiated between using `if/elif/else` versus multiple independent `if` statements.
+
+5. Logical Operators:
+   - Combined multiple conditions using logical operators: `and`, `or`, and `not` to refine decision-making in code.
+   - Updated code to allow free rollercoaster rides for users between the ages of 45 and 55 using these operators.
+
+6. Projects:
+   - Rollercoaster Ride: Wrote a program to check a person's eligibility for a ride based on their height and age, with pricing adjustments based on additional features (like photos).
+   - Pizza Order Calculator: Developed a program to calculate the total bill for a pizza order, factoring in size, pepperoni, and extra cheese options.
+   - JavaScript Quiz Game: Implemented a simple multi-level quiz game using nested conditionals and loops to check answers and determine if the player moves to the next level.
