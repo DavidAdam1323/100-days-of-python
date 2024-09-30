@@ -48,8 +48,13 @@ print(fruits[-1])
 
 # Use the same syntax to get hold of items in a List to modify it. 
 # fruits will now become ["Orange", "Apple", "Pear"]
-print(fruits[0]) = "Orange"
+fruits[0] = "Strawberry"
 
 # Add items to the end of a List using the append() function. e.g.
 # fruits will now become ["Cherry", "Apple", "Pear", "Orange"]
 fruits.append("Orange")
+
+# Ex03: Banker Roulette
+# Pick a random name from the list of friends.
+friends = ["Alice", "Bob", "Charlie", "David", "Emanuel"]
+print(friends[random.randint(0, 4)])
