@@ -1,0 +1,22 @@
+100 Days of Python - Day 004 Summary:
+
+On the fourth day of my 100-day Python challenge, I explored key concepts related to randomisation, lists, and how to work with both in Python:
+
+1. Randomisation:
+   - Learned how to use the `random` module to generate random numbers.
+   - Used `randint()` to generate random integers within a specified range.
+   - Explored random floating-point numbers using `random.random()` and `random.uniform()` for custom ranges.
+
+2. Coin Flip Simulation:
+   - Created a simple program to simulate a coin flip using randomisation, where it randomly prints "Heads" or "Tails".
+
+3. Working with Lists:
+   - Created and accessed elements in a list by index (both positive and negative indices).
+   - Practiced modifying and appending items to a list using indexing and the `append()` method.
+
+4. Banker Roulette Project:
+   - Wrote a program that picks a random friend from a list of names using randomisation, simulating a "Banker Roulette" scenario.
+
+5. List Length and Nested Lists:
+   - Used the `len()` function to determine the length of a list.
+   - Experimented with nesting lists within other lists, creating a structure of fruits and vegetables.
