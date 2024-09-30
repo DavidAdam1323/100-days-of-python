@@ -58,3 +58,16 @@ fruits.append("Orange")
 # Pick a random name from the list of friends.
 friends = ["Alice", "Bob", "Charlie", "David", "Emanuel"]
 print(friends[random.randint(0, 4)])
+
+# Ex04: Lenght of List
+# get the length of a list (number of items in the list) 
+# or the length of a string (number characters in the string) 
+# by using the len() function.
+print(len(friends[1]))
+
+# Put Lists inside other Lists, this becomes something called a "Nested List"
+# The list would look like this: [["Cherry", "Apple", "Pear"], ["Cucumber", "Kale", "Spinnach"]]
+fruits = ["Cherry", "Apple", "Pear"]
+veg = ["Cucumber", "Kale", "Spinnach"]
+fruits_and_veg = [fruits, veg]
+print(fruits_and_veg)
