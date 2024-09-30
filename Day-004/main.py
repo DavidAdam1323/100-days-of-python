@@ -35,3 +35,21 @@ def coin_flip():
     return "Tails"
 
 print(coin_flip())
+
+# Ex02: Lists
+# Create a simple collection of ordered items using a Python list. 
+fruits = ["Cherry", "Apple", "Pear"]
+
+# Accessing Items in Lists: provide the name of the list then a square bracket and then the item index that you want. 
+print(fruits[0])
+
+# Access items in the list counting from the end of the list by using negative whole numbers.
+print(fruits[-1])
+
+# Use the same syntax to get hold of items in a List to modify it. 
+# fruits will now become ["Orange", "Apple", "Pear"]
+print(fruits[0]) = "Orange"
+
+# Add items to the end of a List using the append() function. e.g.
+# fruits will now become ["Cherry", "Apple", "Pear", "Orange"]
+fruits.append("Orange")
