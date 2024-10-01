@@ -1,0 +1,22 @@
+100 Days of Python - Day 005 Summary:
+
+On the fifth day of my 100-day Python challenge, I explored the power of `for` loops, 
+how to use the `range()` function, and worked through hands-on exercises.
+
+1. For Loops:
+   - Learned how to repeat actions using `for` loops to iterate over items in a list.
+   - Printed out each fruit from a list, followed by creating variations with string concatenation.
+   - Emphasized the importance of indentation in Python and observed how different indentations affect the program's behavior.
+
+2. Challenge - Highest Score Finder:
+   - Solved a challenge that used `for` loops and conditional logic to determine the highest score in a list of `student_scores`.
+   - Practiced comparing each score to a current highest value and updating it when a larger value is found.
+
+3. For Loops with `Range()`:
+   - Discovered how to generate sequences of numbers using Python’s `range()` function.
+   - Learned about the three parameters of `range()` — `start`, `stop`, and `step`.
+   - Applied `for` loops with `range()` to print sequences of numbers and understand how the step size affects the output.
+
+4. Gauss Challenge:
+   - Worked through a problem to calculate the sum of all numbers between 1 and 100 using a `for` loop.
+   - Implemented a cumulative sum technique using the `+=` operator to achieve the result.
