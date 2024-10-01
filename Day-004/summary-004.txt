@@ -20,3 +20,8 @@ On the fourth day of my 100-day Python challenge, I explored key concepts relate
 5. List Length and Nested Lists:
    - Used the `len()` function to determine the length of a list.
    - Experimented with nesting lists within other lists, creating a structure of fruits and vegetables.
+
+6. Rock-Paper-Scissors Game Project:
+   - Developed a Rock-Paper-Scissors game where the user can choose between rock, paper, or scissors.
+   - Used randomisation for the computer's choice and conditional logic to determine the outcome of the game (win, lose, or draw).
+   - Implemented ASCII art for a fun representation of each choice in the game.
