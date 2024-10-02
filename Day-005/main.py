@@ -62,7 +62,7 @@ for num in range(1, 11, 3): # The `3` dictates how much the `num` increases afte
 #                             Third iteration: `7`
 #                             Fourth iteration: `10`
 
-# The Gauss Challenge
+# Ex04: The Gauss Challenge
 # Work out the total of the numbers between 1 and 100, inclusive of both 1 and 100.
 total = 0
 for number in range(1, 101):

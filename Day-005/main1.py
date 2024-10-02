@@ -1,5 +1,5 @@
 # 100 Days of Python - Day 005
-# Ex04: Password Generator Project
+# Ex05: Password Generator Project
 import random
 print(">> PyPassword Generator")
 

@@ -20,3 +20,7 @@ how to use the `range()` function, and worked through hands-on exercises.
 4. Gauss Challenge:
    - Worked through a problem to calculate the sum of all numbers between 1 and 100 using a `for` loop.
    - Implemented a cumulative sum technique using the `+=` operator to achieve the result.
+
+5. Password Generator Project:
+   - Created a PyPassword generator that combines random letters, numbers, and symbols based on user input.
+   - Utilized for loops and random.choice() to randomly pick elements and random.shuffle() to randomize the order of characters in the password.
