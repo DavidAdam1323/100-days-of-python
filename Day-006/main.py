@@ -103,5 +103,16 @@ def play_game():
             print(f"Congratulations! You guessed it in {attempts} attempts.")
             break  # Exit the loop if the guess is correct ✅
 
+def start_game():
+    while True:
+        print("Welcome to the Guess the Number Game!")
+        play_game()
 
-play_game()
+        # Ask if the player wants to play again ✅
+        play_again = input("Do you want to play again? (yes/no): ").lower()
+        if play_again != "yes":
+            print("Thanks for playing! Goodbye!")
+            break  # Exit the outer loop if they choose not to play again ✅
+        
+# Start the game
+start_game()
