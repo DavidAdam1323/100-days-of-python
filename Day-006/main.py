@@ -73,3 +73,35 @@ while chosen_num < 1 or chosen_num > 10:
     print("Invalid Number!")
     chosen_num = int(input("Enter a # between 1 - 10: "))
 print(f"Your chosen number is {chosen_num}.")
+
+
+# Ex 04: Guess the Number Game - Project
+# Create a small game where the program randomly selects a number, 
+# and the player has to guess the correct number within a certain range (e.g., 1-20). 
+# The program will give hints whether the guess was too high or too low 
+# and loop until the correct guess is made.
+import random
+
+def play_game():
+    # Generate a random number between 1 and 20 ✅
+    random_number = random.randint(1, 20)
+
+    # Initialize number of attempts ✅
+    attempts = 0
+
+    # Start the guessing loop ✅
+    while True:
+        guess = int(input("Guess a number between 1 and 20: "))
+        attempts += 1 # Increment attempts ✅
+
+        # Provide hints based on the guess ✅
+        if guess < random_number:
+            print("Too low! Try again.")
+        elif guess > random_number:
+            print("Too high! Try again.")
+        else:
+            print(f"Congratulations! You guessed it in {attempts} attempts.")
+            break  # Exit the loop if the guess is correct ✅
+
+
+play_game()
