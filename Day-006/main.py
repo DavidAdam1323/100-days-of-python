@@ -47,3 +47,29 @@ def name_the_benefits_of_functions():
         print(build_sentence(benefit))
 
 name_the_benefits_of_functions()
+
+
+# Ex03: While loops repeat as long as a certain boolean condition is met. 
+# For example: Prints out 1,2,3,4,5
+count = 1
+while count < 6:
+    print(f"This is the loop {count}!")
+    count += 1
+
+name = input("What is you name? ")
+while name == "":
+  print("You didn't enter your name!")
+  name = input("What is you name? ")
+print(f"Hello, {name}!")
+
+age = int(input("Enter your age: "))
+while age < 18:
+   print("You are not allow to enter!")
+   age = int(input("Enter your age: "))
+print(f"You are allow to enter!")
+
+chosen_num = int(input("Enter a # between 1 - 10: "))
+while chosen_num < 1 or chosen_num > 10:
+    print("Invalid Number!")
+    chosen_num = int(input("Enter a # between 1 - 10: "))
+print(f"Your chosen number is {chosen_num}.")
